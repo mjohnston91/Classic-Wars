@@ -63,7 +63,7 @@
                               	<?php
                               	if(!Auth::check()): ?>
                               	<li><a href="/">Home</a></li>
-                                <li><a href="/user/register">Register</a></li>
+                                <li><a href="<?php echo URL::to_register(); ?>">Register</a></li>
                                 <li><a href="#">Screenshots</a></li>
                                	<?php
 								else: ?>
