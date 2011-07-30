@@ -38,7 +38,7 @@ return array(
 
 	'by_username' => function($username)
 	{
-		return User::where_user($username)->first();
+		return User::where_username($username)->first();
 	},
 	
 	'by_email' => function($email)
